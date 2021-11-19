@@ -23,7 +23,7 @@ class Questions:
     
 def Read_file():
     list_track = []
-    with open("sporsmaalsfil.txt", "r", encoding= "UTF-8") as file:
+    with open("C:/Users/yac/Documents/Python Scripts/sporsmaalsfil.txt", "r", encoding= "UTF-8") as file:
         for line in file:
             line = line.replace("[","").replace("]","").split(":")
             
